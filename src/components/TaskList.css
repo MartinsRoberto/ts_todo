@@ -1,0 +1,26 @@
+.task-item{
+  display: flex;
+  gap: 10px;
+  border-bottom: 1px solid silver;
+  padding: 8px 0px;
+}
+
+.task-item h4{
+  flex: 1;
+}
+
+.task-item button{
+  border: none;
+  background-color: none;
+}
+.task-item i{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #084298;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

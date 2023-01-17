@@ -1,0 +1,43 @@
+.form{
+  display: grid;
+  grid-template-areas: "a a a" "b b c";
+  gap: 10px;
+}
+
+.row:nth-child(1){
+  grid-area: a;
+}
+
+.row:nth-child(2){
+  grid-area: b;
+}
+
+.row:nth-child(3){
+  grid-area: c;
+  display: flex;
+  align-items: end;
+}
+
+input, label{
+  display: block;
+}
+
+label{
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+input{
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  padding: 6px;
+}
+
+input[type="submit"]{
+  background-color: #084298;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 29px;
+}
